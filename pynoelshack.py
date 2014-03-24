@@ -41,7 +41,7 @@ def main(argv):
     ns = NoelShack()
 
     try:
-        ns.upload(file)
+        print(ns.upload(file))
     except NoelShackError as e:
         print(str(e), file=sys.stderr)
         return 1
