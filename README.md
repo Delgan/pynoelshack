@@ -12,7 +12,7 @@ as a command-line tool.
 Dependencies
 ------------
 
-[Requests](http://python-requests.org/)
+* [Requests](http://python-requests.org/)
 
 
 Installation
