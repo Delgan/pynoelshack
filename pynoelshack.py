@@ -22,8 +22,8 @@ class NoelShack:
         return self.parse(r.text)
 
     def parse(self, url):
-        return re.sub(r'www\.noelshack\.com/([0-9]+)-([0-9]+)-(.+)',
-                      r'image.noelshack.com/fichiers/\1/\2/\3',
+        return re.sub(r'www\.noelshack\.com/([0-9]+)-([0-9]+)-([0-9]+)-(.+)',
+                      r'image.noelshack.com/fichiers/\1/\2/\3/\4',
                       url)
 
 
